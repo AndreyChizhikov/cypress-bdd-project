@@ -39,7 +39,7 @@ cypress-bdd-project
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AndreyChizhikov/cypress-bdd-project.git
    cd cypress-bdd-project
    ```
 
