@@ -11,7 +11,7 @@ class ContractsPage extends BaseProzzoroPage {
     }
 
     goToPage() {
-       this.headerComponent.visit
+       this.headerComponent.goToContractsTab();
     }
 }
 

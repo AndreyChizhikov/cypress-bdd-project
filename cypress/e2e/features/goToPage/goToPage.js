@@ -5,15 +5,14 @@ import ContactPage from '../../../integration/page_objects/ContractsPage';
 
 const contactPage = new ContactPage();
 
-
 Given('I navigate to the page', () => {
     contactPage.goToMainPage();
 });
 
 When('I perform an action', () => {
-    contactPage.headerComponent.goToContractsTab();
+    contactPage.goToPage();
 });
 
 Then('I should see the expected result', () => {
-    contactPage.getActiveTab().should('text', 'Contracts');
+    contactPage.headerComponent.getActiveTab().should('text', 'Contracts');
 });
